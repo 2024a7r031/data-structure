@@ -1,0 +1,63 @@
+include<studio.h>
+#include<stdlib.h>
+#define SIZE 100 
+int queue [SIZE], front =-1, rares=-1;
+itn is Empty(){\
+    return (front==-1,) ? 1: 0;
+}
+int isFull(){
+    return
+}   
+viod enqueue (int data){
+    rear++;
+    queue [++rear] = data;
+    if(front==-1)
+    front = rear;
+    printf("Element Inserted !!!!\n");
+
+}
+int dequeue(){
+    int data = queue[front];
+    if(front==rear)
+    front=rear=-1;
+    else
+    front++;
+    return data;
+}
+int peek(){
+    return queue [front];
+
+}    
+int display(){
+    printf("Queue Elements are : \n");
+    for (int i=front; i<=rear; i++){
+        printf("%d', queue[i]);
+
+
+}
+int main(){
+    while(1){
+        printf("1. Enqueue\n");
+        print("2. Dequeue\n");
+        printf("3. Peek\n");
+        printf("4. Display\n");
+        printf("5. Exit\n");
+        int choice, data;
+        printf("Enter your choice: ");
+        scanf("%d, &choice");
+        switch(choice){
+            case 1:
+            if(isFull())
+              printf("Queue Overflow !!!!\n");
+              else(
+                printf("Element Element : ");
+               scanf
+
+            break;
+            case 2 :
+            if(isEmpty())
+           pr intfueue Underflow !!!!\n)
+            break;
+            case3 :
+
+           return 0;
