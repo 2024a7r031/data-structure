@@ -51,8 +51,9 @@ int main(){
               printf("Queue Overflow !!!!\n");
               else(
                 printf("Element Element : ");
-               scanf
-
+               scanf("%d", &data);
+              enqueue(data);
+            }
             break;
             case 2 :
             if(isEmpty())
